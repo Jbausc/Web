@@ -21,7 +21,7 @@ window.addEventListener("load", () => {
         ctx.lineWidth=10;
         ctx.lineCap="round";
 
-        ctx.lineTo(e.clientX, e.clientY-100)
+        ctx.lineTo(e.clientX, e.clientY-500)
         ctx.stroke();
     }
 
