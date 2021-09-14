@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
 
     function finishedPosition(){
         painting = false;
-        ctx.beginPath();
+        
     }
 
     function draw(e){
@@ -22,7 +22,7 @@ window.addEventListener("load", () => {
         ctx.lineCap="round";
 
 
-        ctx.lineTo(e.clientX, e.clientY)
+        ctx.lineTo(e.clientX, e.clientY-50);
         ctx.stroke();
     }
 
