@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
 
     function finishedPosition(){
         painting = false;
-        ctx.moveTo(e.clientX, e.clientY-75);
+
     }
 
     function draw(e){
