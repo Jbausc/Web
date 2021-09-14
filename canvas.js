@@ -9,13 +9,11 @@ window.addEventListener("load", () => {
 
     function startPosition(){
         painting = true;
-
+        ctx.beginPath();
     }
 
     function finishedPosition(){
         painting = false;
-        ctx.beginPath();
-
     }
 
     function draw(e){
