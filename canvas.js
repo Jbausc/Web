@@ -20,9 +20,9 @@ window.addEventListener("load", () => {
         if(!painting) return;
         ctx.lineWidth=10;
         ctx.lineCap="round";
-        
+
         ctx.moveTo(e.clientX, e.clientY-150)
-        ctx.lineTo(e.clientX, e.clientY-500)
+        ctx.lineTo(e.clientX, e.clientY-150)
         ctx.stroke();
     }
 
