@@ -2,8 +2,8 @@ window.addEventListener("load", () => {
     const canvas = document.querySelector("#canvas");
     const ctx = canvas.getContext("2d")
 
-    ctx.fillStyle = 'red';
-    ctx.fillRect = (50,50,150,100);
+    ctx.fillStyle = 'white';
+    ctx.fillRect = (0,500,150,100);
 
     let painting = false;
 
