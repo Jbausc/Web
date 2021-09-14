@@ -3,7 +3,7 @@ window.addEventListener("load", () => {
     const ctx = canvas.getContext("2d")
 
     ctx.fillStyle = 'white';
-    ctx.fillRect = (10,10,10,10);
+    ctx.fillRect = (5,5,5,5);
 
     let painting = false;
 
