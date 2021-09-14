@@ -7,9 +7,9 @@ window.addEventListener("load", () => {
 
     let painting = false;
 
-    function startPosition(e){
+    function startPosition(){
         painting = true;
-        draw(e);
+
     }
 
     function finishedPosition(){
@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
         ctx.lineCap="round";
 
 
-        ctx.lineTo(e.clientX, e.clientY-50);
+        ctx.lineTo(e.clientX, e.clientY-55);
         ctx.stroke();
     }
 
