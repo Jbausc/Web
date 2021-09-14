@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
 
     function finishedPosition(){
         painting = false;
-        ctx.moveTo(e.clientX, e.clientY-150);
+        ctx.moveTo(e.clientX, e.clientY-75);
     }
 
     function draw(e){
@@ -21,8 +21,8 @@ window.addEventListener("load", () => {
         ctx.lineWidth=10;
         ctx.lineCap="round";
 
-        ctx.moveTo(e.clientX, e.clientY-150)
-        ctx.lineTo(e.clientX, e.clientY-150)
+        ctx.moveTo(e.clientX, e.clientY-75)
+        ctx.lineTo(e.clientX, e.clientY-75)
         ctx.stroke();
     }
 
