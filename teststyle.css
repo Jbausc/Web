@@ -3,3 +3,7 @@ body {
   background: yellow;
   text-align: center;
 } 
+
+#canvas {
+     border: 2px solid black;
+}
