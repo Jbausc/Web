@@ -10,6 +10,7 @@ window.addEventListener("load", () => {
     function startPosition(){
         painting = true;
         ctx.beginPath();
+        ctx.moveTo(e.clientX, e.clientY-57);
     }
 
     function finishedPosition(){
