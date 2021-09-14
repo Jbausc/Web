@@ -13,14 +13,15 @@ window.addEventListener("load", () => {
 
     function finishedPosition(){
         painting = false;
-        ctx.beginPath();
+        ctx.moveTo(e.clientX, e.clientY-150);
     }
 
     function draw(e){
         if(!painting) return;
         ctx.lineWidth=10;
         ctx.lineCap="round";
-
+        
+        ctx.moveTo(e.clientX, e.clientY-150)
         ctx.lineTo(e.clientX, e.clientY-500)
         ctx.stroke();
     }
