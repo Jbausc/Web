@@ -1,18 +1,19 @@
-import React, { useRef, useEffect } from 'react'
+import React from 'React';
+import logo from './logo.svg'
+import './App.css';
 
-const Canvas = props => {
-  
-  const canvasRef = useRef(null)
-  
-  useEffect(() => {
-    const canvas = canvasRef.current
-    const context = canvas.getContext('2d')
-    //Our first draw
-    context.fillStyle = '#000000'
-    context.fillRect(0, 0, context.canvas.width, context.canvas.height)
-  }, [])
-  
-  return <canvas ref={canvasRef} {...props}/>
+class App extends Component {
+  render() {
+    return (<div className="App-header">
+          <header className="App-header">
+            <img src={logo} className="App-lolo" alt="logo" />
+            <h1 className="App--title">Welcometo</h1>
+          </header>
+          <p className="app-intro">
+            oogabooga
+          </p>
+    </div>
+    );
+  }
 }
 
-export default Canvas
