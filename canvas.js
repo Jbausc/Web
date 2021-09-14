@@ -22,7 +22,7 @@ window.addEventListener("load", () => {
         ctx.lineCap="round";
 
 
-        ctx.lineTo(e.clientX, e.clientY+50)
+        ctx.lineTo(e.clientX, e.clientY-20)
         ctx.stroke();
     }
 
