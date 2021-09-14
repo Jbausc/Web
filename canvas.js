@@ -14,6 +14,7 @@ window.addEventListener("load", () => {
 
     function finishedPosition(){
         painting = false;
+        ctx.beginPath();
 
     }
 
