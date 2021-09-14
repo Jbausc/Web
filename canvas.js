@@ -18,11 +18,11 @@ window.addEventListener("load", () => {
 
     function draw(e){
         if(!painting) return;
-        ctx.lineWidth=10;
+        ctx.lineWidth=5;
         ctx.lineCap="round";
 
 
-        ctx.lineTo(e.clientX, e.clientY-20);
+        ctx.lineTo(e.clientX, e.clientY)
         ctx.stroke();
     }
 
