@@ -13,6 +13,7 @@ window.addEventListener('load', () => {
 
     function finishedPosition(){
         painting = false;
+        ctx.beginPath();
     }
 
     function draw(e){
@@ -22,6 +23,8 @@ window.addEventListener('load', () => {
 
         ctx.lineTo(e.clientX, e.clientY)
         ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(e.clientX,e.clientY)
     }
 
 
