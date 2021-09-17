@@ -59,6 +59,7 @@ p{
         border: solid;
     border-color: white;
     border-width:0.1ch;
+    background-color: #000000;
 
   }
   .dropdown-content a:hover {
