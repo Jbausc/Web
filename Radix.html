@@ -46,7 +46,7 @@
 
       <button id="HexToDecButton">Hexadecimal -> Decimal</button>
       <p id="HexToDec"p></p>
-      <button>Hexadecimal -> Binary</button>
+      <button id="HexToBinButton">Hexadecimal -> Binary</button>
       <p id="HexToBin"></p> 
   </div>
   <script>
@@ -89,6 +89,14 @@
     }
 
     document.getElementById("HexToDecButton").addEventListener("click", HexToDec);
+
+    function HexToBin() {
+        hex = document.getElementById("hexadecimal").value;
+        bin = (parseInt(hex, 16)>>>0).toString(2);
+        document.getElementById("HexToBin").innerHTML = bin;
+    }
+
+    document.getElementById("HexToBinButton").addEventListener("click", HexToBin);
   </script>
 
 </body>
