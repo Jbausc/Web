@@ -54,7 +54,12 @@
       <p id="HexToBin"></p> <br><br>
   </div>
   <script>
-  document.getElementById("DecToBin").innerHTML = "wow";
+    function DecToBin() {
+        var txt = document.getElementById("decimal").value;
+        document.getElementById("DecToBin").innerHTML = txt;
+    }
+
+    document.getElementById("DecToBinButton").addEventListener("click", DecToBin);
   </script>
 
 </body>
