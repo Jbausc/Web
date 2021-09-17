@@ -15,20 +15,18 @@
 
   <input type="text", id="User">
   <input type="text", id="Pass">
-  <button onlcick="wtf()">Gimme Data</button>
+  <button id="tewst">Gimme Data</button>
 
-  <p id="demo">click</p>
+  <p id="demo" onclick="getInput()">click</p>
 
   <script>
    function getInput(){
      var txt=document.getElementById('User').value;
      document.getElementById("demo").innerHTML = txt;
   }
-  function wtf(){
-     document.getElementById("demo").innerHTML = "huh";
-  }
+  document.getElementById("tewst").addEventListener("click", getInput)
 
 </script>
- <p ></p>
+
 </body>
 
