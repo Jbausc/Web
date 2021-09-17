@@ -64,7 +64,7 @@
 
     function DecToHex() {
         dec = document.getElementById("decimal").value;
-        hex = dec.toString(16);
+        hex = (dec>>>0).toString(16);
         document.getElementById("DecToHex").innerHTML = hex;
     }
 
