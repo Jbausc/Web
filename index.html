@@ -2,8 +2,6 @@
   <title>Jake's Masterpiece</title>
 
   <link rel="shortcut icon" type="image/x-icon" href="Untitled.png" />
-
-
   <link rel="stylesheet" href="teststyle.css">
   <link rel="shortcut icon" type="image/x-icon" href="Untitled.png" />
   <h1>This is gonna be a banger of a site baby!!!</h1>
@@ -21,10 +19,17 @@
   <input type="text", id="User"><br><br>
   <label>Password to ur bank: </label>
   <input type="text", id="Pass"><br><br>
-  <input type="submit" value="Submit">
+  <button onlcick="getInput()">Gimme Data</button>
+
 </form>
-  
+
+<p id="username"></p>
 
 <script>
-  Console.log(document.getElementById('User').value);
+  function getInput(){
+    var txt=document.getElementById("User").value;
+    document.getElementById("username").innerHTML=txt;
+    var txt=document.getElementById("Pass").value;
+    document.getElementById("username").innerHTML=txt;
+  }
 </script>

@@ -27,6 +27,7 @@ window.addEventListener("load", () => {
         ctx.stroke();
     }
 
+    
 
 
     canvas.addEventListener("mousedown", startPosition);
