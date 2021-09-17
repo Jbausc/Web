@@ -9,6 +9,13 @@ p{
     color:white;
     text-align: center;
 }
+
+.intro{
+    color:white;
+    text-align: left;
+    text-justify: auto;
+}
+
 .button {
     background-color: Black;
     border: solid;
