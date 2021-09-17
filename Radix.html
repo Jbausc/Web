@@ -55,8 +55,9 @@
   </div>
   <script>
     function DecToBin() {
-        var txt = document.getElementById("decimal").value;
-        document.getElementById("DecToBin").innerHTML = txt;
+        dec = document.getElementById("decimal").value;
+        bin=(dec>>>0).toString(2);
+        document.getElementById("DecToBin").innerHTML = bin;
     }
 
     document.getElementById("DecToBinButton").addEventListener("click", DecToBin);
