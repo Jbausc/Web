@@ -5,9 +5,14 @@ h1{
     color:white;
     text-align: center;
 }
-p{
+
+h2{
     color:white;
     text-align: center;
+}
+p{
+    color:white;
+    text-align: justify;
 }
 
 .intro{
