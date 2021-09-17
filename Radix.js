@@ -3,4 +3,3 @@ function DecToBin() {
     document.getElementById("DecToBin").innerHTML = txt;
   }
   document.getElementById("DecToBin").innerHTML = "wow";
-document.getElementById("DecToBinButton").addEventListener("click", DecToBin);
