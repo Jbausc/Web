@@ -20,12 +20,17 @@ p {
 .radixLabel{
     color:white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-end;
     text-align: left;
-    width: 400px;
+    width: 775px;
     line-height: 26px;
     margin-bottom: 10px;
+}
+.radixInput {
+  height: px;
+  flex: 0 0 10px;
+  margin-left: 10px;
 }
 
 
