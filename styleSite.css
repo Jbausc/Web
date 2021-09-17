@@ -10,16 +10,14 @@ h2{
     color:white;
     text-align: center;
 }
-p{
-    color:white;
-    text-align: justify;
-}
 
-.intro{
+p{
     color:white;
     text-align: left;
     text-justify: auto;
 }
+
+
 
 .button {
     background-color: Black;
