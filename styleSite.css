@@ -50,13 +50,27 @@ p{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  
   .dropdown-content a {
     display: block;
-    color: #000000;
+    color: #FFFFFF;
     padding: 5px;
     text-decoration: none;
+        border: solid;
+    border-color: white;
+    border-width:0.1ch;
+
   }
   .dropdown-content a:hover {
     color: #FFFFFF;
-    background-color: #00A4BD;
+    background-color: #000000;
+    border: solid;
+    border-color: white;
   }
+  
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 5px solid #FFFF00;
+    padding: 10px;
+    }
