@@ -43,8 +43,7 @@ p{
     padding: 5px;
     text-decoration: none;
   }
-  
   .dropdown-content a:hover {
-    color: black;
-    background-color: white;
+    color: #FFFFFF;
+    background-color: #00A4BD;
   }
