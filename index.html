@@ -17,10 +17,12 @@
   <input type="text", id="Pass">
   <button onlcick="getInput()">Gimme Data</button>
 
+  <p id="demo"></p>
+
   <script>
    function getInput(){
      var txt=document.getElementById('User');
-     Console.log(txt);
+     document.getElementById("demo").innerHTML = txt;
   }
 </script>
  <p ></p>
