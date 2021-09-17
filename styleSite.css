@@ -18,6 +18,9 @@ p {
     text-justify: auto;
 }
 
+.label{
+    color:white;
+}
 
 .button {
     background-color: Black;
