@@ -3,4 +3,4 @@ function DecToBin() {
     document.getElementById("DecToBin").innerHTML = txt;
   }
 
-document.getElementById("DecToBin").addEventListener("click", DecToBin);
+document.getElementById("DecToBinButton").addEventListener("click", DecToBin);
