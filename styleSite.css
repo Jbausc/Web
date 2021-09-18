@@ -17,13 +17,18 @@ p {
     text-align: left;
     text-justify: auto;
 }
+
+.InputDiv{
+    width:55%;
+
+}
+
 .radixLabel{
     color:white;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    text-align: left;
-    width: 1125px;
+ 
     line-height: 26px;
     margin-bottom: 10px;
 }
@@ -32,6 +37,7 @@ p {
   flex: 0 0 10px;
   margin-left: 10px;
 }
+
 
 .MathDiv {
     height:70px
