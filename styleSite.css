@@ -44,6 +44,11 @@ p {
     width:100%
 }
 
+.MathDiv {
+    height:70px;
+    width:15%;
+}
+
 .button {
     background-color: Black;
     border: solid;
