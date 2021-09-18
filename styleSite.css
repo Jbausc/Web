@@ -20,7 +20,7 @@ p {
 
 .InputDiv{
     width:55%;
-    width:15%;
+
 }
 
 .radixLabel{
@@ -39,8 +39,9 @@ p {
 }
 
 
-.MathDiv {
-    height:70px
+.buttonTest{
+    background-color:red;
+    width:100%
 }
 
 .button {
