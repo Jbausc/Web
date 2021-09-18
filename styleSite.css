@@ -29,9 +29,12 @@ p {
 }
 
 .radixInput {
-  height: px;
   flex: 0 0 10px;
   margin-left: 10px;
+}
+
+.InputDiv{
+    text-align: center;
 }
 
 .MathDiv {
