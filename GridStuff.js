@@ -8,14 +8,14 @@ document.addEventListener("keydown", function(e){
     }
 })
 document.addEventListener("keydown", function(e){
-    if ((e.key=="a")){
+    if ((e.key=="a") && (((x-1)%10)!=0) && ((x-1)!=0)){
         document.getElementById(x.toString()).innerHTML=""; 
         x-=1;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
     }
 })
 document.addEventListener("keydown", function(e){
-    if ((e.key=="s") && ((x+10)<=60)){
+    if ((e.key=="s") && ((x+10)<=50)){
         document.getElementById(x.toString()).innerHTML=""; 
         x+=10;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
