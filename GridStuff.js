@@ -1,1 +1,1 @@
-document.getElementById("grid4");
+document.getElementById("grid4").innerHTML="<img src=\"Untitled.png\">";
