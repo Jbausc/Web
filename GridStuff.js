@@ -25,5 +25,9 @@ function Move(event){
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
         
     }
+    if(x==50){
+        document.getElementById("grid-container").innerHTML="Congrats";
+        document.removeEventListener("keydown", Move);
+    }
 }
     
