@@ -1,13 +1,13 @@
 document.getElementById("1").innerHTML="<img src=\"Car.png\">";
 var x = 1;
-document.getElementById("60").innerHTML="<img src=\"Golf.png\">"
+document.getElementById("50").innerHTML="<img src=\"Golf.png\">"
 document.addEventListener("keydown", function(e){
     if ((e.key=="w") && ((x-10)>0)){
 
         document.getElementById(x.toString()).innerHTML=""; 
         x-=10;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
-        if(x==60){
+        if(x==50){
             document.getElementById("grid-container").innerHTML="Congrats";
         }
     }
@@ -17,7 +17,7 @@ document.addEventListener("keydown", function(e){
         document.getElementById(x.toString()).innerHTML=""; 
         x-=1;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
-        if(x==60){
+        if(x==50){
             document.getElementById("grid-container").innerHTML="Congrats";
         }
     }
@@ -27,7 +27,7 @@ document.addEventListener("keydown", function(e){
         document.getElementById(x.toString()).innerHTML=""; 
         x+=10;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
-        if(x==60){
+        if(x==50){
             document.getElementById("grid-container").innerHTML="Congrats";
         }
     }
@@ -37,7 +37,7 @@ document.addEventListener("keydown", function(e){
         document.getElementById(x.toString()).innerHTML=""; 
         x+=1;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
-        if(x==60){
+        if(x==50){
             document.getElementById("grid-container").innerHTML="Congrats";
         }
     }
