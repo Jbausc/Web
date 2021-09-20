@@ -28,8 +28,8 @@ function Move(e){
         
     }
     if(x==50){
-        document.getElementById("grid-container").innerHTML="Congrats";
-        document.removeEventListener("keydown", Move);
+        document.getElementById("grid-container").innerHTML="<img src=\"Epic.png\">";
+        document.removeEventListener("keydown", Move);  
     }
 }
     
