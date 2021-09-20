@@ -22,7 +22,7 @@ document.addEventListener("keydown", function(e){
     }
 })
 document.addEventListener("keydown", function(e){
-    if ((e.key=="d")){
+    if ((e.key=="d") && (((x)%10)!=0)){
         document.getElementById(x.toString()).innerHTML=""; 
         x+=1;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
