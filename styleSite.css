@@ -74,10 +74,11 @@ p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 128px 128px 128px 128px 128px;
+    grid-template-columns:128px 128px 128px 128px 128px 128px 128px 128px 128px 128px;
     background-color: #2196F3;
-    width:640px;
+    width:1280px;
     margin:auto;
+    margin-top:5%;
   }
   
   .grid-item {

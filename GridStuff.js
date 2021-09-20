@@ -1,9 +1,9 @@
-document.getElementById("23").innerHTML="<img src=\"Car.png\">";
-var x = 23;
+document.getElementById("1").innerHTML="<img src=\"Car.png\">";
+var x = 1;
 document.addEventListener("keydown", function(e){
     if (e.key=="w"){
         document.getElementById(x.toString()).innerHTML=x.toString(); 
-        x-=5;
+        x-=10;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
     }
 })
@@ -17,7 +17,7 @@ document.addEventListener("keydown", function(e){
 document.addEventListener("keydown", function(e){
     if (e.key=="s"){
         document.getElementById(x.toString()).innerHTML=x.toString(); 
-        x+=5;
+        x+=10;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
     }
 })
