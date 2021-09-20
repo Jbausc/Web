@@ -1,6 +1,8 @@
 body {
-    background-color:black;
+    background-image:url("Music.gif");
+    background-size:50%;
 } 
+
 
 h1 {
     color:white;
