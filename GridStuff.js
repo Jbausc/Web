@@ -12,17 +12,17 @@ function Move(e){
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
     } else if ((e.key=="w") && ((x-10)>0)){
 
-        document.getElementById(x.toString()).innerHTML=""; 
+        document.getElementById(x.toString()).innerHTML="<img src=\"grass.png\">"; 
         x-=10;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
 
     } else if ((e.key=="d") && (((x)%10)!=0)){
-            document.getElementById(x.toString()).innerHTML=""; 
+        document.getElementById(x.toString()).innerHTML="<img src=\"grass.png\">"; 
             x+=1;
             document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
 
     } else if ((e.key=="a") && (((x-1)%10)!=0) && ((x-1)!=0)){
-        document.getElementById(x.toString()).innerHTML=""; 
+        document.getElementById(x.toString()).innerHTML="<img src=\"grass.png\">"; 
         x-=1;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
         
