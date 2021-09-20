@@ -39,8 +39,19 @@ p {
 }
 
 .MathDiv {
-    height:70px;
-    width:15%;
+    height:120px;
+    width:100%;
+    text-align:center;
+}
+.ResultButton{
+    background-color: Black;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+}
 }
 
 .button {
