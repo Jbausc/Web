@@ -28,18 +28,22 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
- 
     line-height: 26px;
     margin-bottom: 10px;
 }
 
+.ResultP{
+    text-align:center;
+    font-size:30px;
+    margin:12px;
+}
 .radixInput {
   flex: 0 0 10px;
   margin-left: 10px;
 }
 
 .MathDiv {
-    height:120px;
+    height:100px;
     width:100%;
     text-align:center;
 }
@@ -51,7 +55,7 @@ p {
     display: inline-block;
     font-size: 30px;
     cursor: pointer;
-}
+    border:outset;
 }
 
 .button {
@@ -120,5 +124,4 @@ p {
 .center {
     margin: auto;
     width: 300px;
-    
 }
