@@ -8,21 +8,21 @@ document.addEventListener("keydown", function(e){
     }
 })
 document.addEventListener("keydown", function(e){
-    if ((e.key=="a") && !((x-1)%10)){
+    if ((e.key=="a")){
         document.getElementById(x.toString()).innerHTML=""; 
         x-=1;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
     }
 })
 document.addEventListener("keydown", function(e){
-    if ((e.key=="s") && !((x+10)<=60)){
+    if ((e.key=="s") && ((x+10)<=60)){
         document.getElementById(x.toString()).innerHTML=""; 
         x+=10;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
     }
 })
 document.addEventListener("keydown", function(e){
-    if ((e.key=="d") && !((x)%10)){
+    if ((e.key=="d")){
         document.getElementById(x.toString()).innerHTML=""; 
         x+=1;
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
