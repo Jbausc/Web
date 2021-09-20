@@ -3,7 +3,7 @@ var x = 1;
 document.getElementById("50").innerHTML="<img src=\"Golf.png\">"
 document.addEventListener("keydown", Move);
 
-function Move(event){
+function Move(e){
     if ((e.key=="s") && ((x+10)<=50)){
         document.getElementById(x.toString()).innerHTML=""; 
         x+=10;
