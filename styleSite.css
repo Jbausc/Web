@@ -1,9 +1,11 @@
 body {
-    background-image:url("Music.gif");
-    background-size:50%;
+    background-color: black;
 } 
 
-
+.MainPage{
+    background-image:url("Music.gif");
+    background-size:50%;
+}
 h1 {
     color:white;
     text-align: center;
