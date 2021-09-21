@@ -3,9 +3,13 @@ var x = 1;
 document.getElementById("10").innerHTML="<img src=\"Intro.png\">";
 document.getElementById("20").innerHTML="<img src=\"RadixCalc.png\">";
 document.getElementById("30").innerHTML="<img src=\"ClickGame.png\">" ;
+document.getElementById("15").innerHTML="<img src=\"oops.png\">";
+document.getElementById("28").innerHTML="<img src=\"oops.png\">";
+document.getElementById("42").innerHTML="<img src=\"oops.png\">";
+
 document.addEventListener("keydown", Move);
 for(let i=2;i<=50;i++){
-    if(i!=10 && i!=20 && i!=30){document.getElementById(i.toString()).innerHTML="<img src=\"grass.png\">"; 
+    if(i!=10 && i!=20 && i!=30 && i!=15 && i!=28 && i!=42){document.getElementById(i.toString()).innerHTML="<img src=\"grass.png\">"; 
     }
 }
 function Move(e){
@@ -36,6 +40,12 @@ function Move(e){
         location.href="https://jbausc.github.io/Web/Radix.html";
     } else if(x==30){
         location.href="https://jbausc.github.io/Web/ClickGame.html";
-    }
+    } else if(x==15){
+        location.href="https://jbausc.github.io/Web/index.html";
+    } else if(x==28){
+        location.href="https://jbausc.github.io/Web/index.html";
+    } else if(x==42){
+        location.href="https://jbausc.github.io/Web/index.html";
+    } 
 }
     
