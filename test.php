@@ -13,8 +13,8 @@ try {
   echo 'Connection error: ' . $error->getMessage();
 }
 
-$first_Name = "WebTest";
-$email = "WebTesting@testing.com";
+$first_Name = $_POST['txtName'];
+$email = $_POST['txtEmail'];
 
 $my_Insert_Statement = $my_Db_Connection->prepare("INSERT INTO people (nameTest, email) VALUES (:first_name, :email)");
 
