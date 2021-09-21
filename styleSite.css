@@ -79,20 +79,29 @@ p {
 .grid-container {
     display: grid;
     grid-template-columns:128px 128px 128px 128px 128px 128px 128px 128px 128px 128px;
+    width:1280px;
+    margin:auto;
+    margin-top:5%;
+  }
+  .grid-container-click {
+    display: grid;
+    grid-template-columns:256px 256px 256px 256px 256px;
     background-color: #2196F3;
     width:1280px;
     margin:auto;
     margin-top:5%;
   }
-  
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    width:128px;
+    background-color: rgba(255, 255, 255, 0.8);    width:128px;
     height:128px;
-    font-size: 30px;
     text-align: center;
   }
+
+.grid-item-click {
+    background-color: rgba(255, 255, 255, 0.8);    width:128px;
+    height:256px;
+    text-align: center;
+}
 
 .menubutton {
     background-color: Black;
