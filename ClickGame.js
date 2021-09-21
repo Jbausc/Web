@@ -6,6 +6,9 @@ var blocks = [1,1,1,1,1,1,1,1,1,1];
 
 function breaking(){
     var gridNum = parseInt(this.id);
-    blocks[gridNum-1]+=1;
+    if (blocks[gridNum-1]==4){
+    blocks[gridNum-1]=0;
+   }
+   blocks[gridNum-1]+=1;
     document.getElementById(this.id).innerHTML="<img src=\"Stage" + blocks[gridNum-1] +".png\">";
 }
