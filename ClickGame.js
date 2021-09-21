@@ -5,6 +5,7 @@ for(let i = 1; i<=10;i++){
 var blocks = [1,1,1,1,1,1,1,1,1,1]
 
 function breaking(){
-    blocks[parseInt(this.id)-1]+=1;
-    document.getElementById(this.id).innerHTML("<img src=\"Stage2.png\">");
+    var gridNum = parseInt(this.id);
+    blocks[gridNum-1]+=1;
+    document.getElementById(this.id).innerHTML="<img src=\"Stage" + this.id +".png\">";
 }
