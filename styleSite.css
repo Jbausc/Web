@@ -81,7 +81,6 @@ p {
     grid-template-columns:128px 128px 128px 128px 128px 128px 128px 128px 128px 128px;
     width:1280px;
     margin:auto;
-    margin-top:5%;
   }
   .grid-container-click {
     display: grid;
