@@ -1,6 +1,8 @@
 document.getElementById("1").innerHTML="<img src=\"Car.png\">";
 var x = 1;
-document.getElementById("50").innerHTML="<img src=\"Golf.png\">"
+document.getElementById("10").innerHTML="<img src=\"Intro.png\">"
+document.getElementById("20").innerHTML="<img src=\"RadixCalc.png\">"
+document.getElementById("30").innerHTML="<img src=\"ClickGame.png\">"
 document.addEventListener("keydown", Move);
 for(let i=2;i<50;i++){
     document.getElementById(i.toString()).innerHTML="<img src=\"grass.png\">"; 
@@ -27,9 +29,12 @@ function Move(e){
         document.getElementById(x.toString()).innerHTML="<img src=\"Car.png\">";
         
     }
-    if(x==50){
-        document.getElementById("grid-container").innerHTML="<img src=\"Epic.png\">";
-        document.removeEventListener("keydown", Move);  
+    if(x==10){
+        location.replace("https://jbausc.github.io/Web/Intro.html") 
+    } else if(x==20){
+        location.replace("https://jbausc.github.io/Web/Radix.html")
+    } else if(x==30){
+        location.replace("https://jbausc.github.io/Web/ClickGame.html")
     }
 }
     
