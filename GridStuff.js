@@ -5,7 +5,7 @@ document.getElementById("20").innerHTML="<img src=\"RadixCalc.png\">";
 document.getElementById("30").innerHTML="<img src=\"ClickGame.png\">" ;
 document.addEventListener("keydown", Move);
 for(let i=2;i<=50;i++){
-    if(x!=10 && x!=20 && x!=30){document.getElementById(i.toString()).innerHTML="<img src=\"grass.png\">"; 
+    if(i!=10 && i!=20 && i!=30){document.getElementById(i.toString()).innerHTML="<img src=\"grass.png\">"; 
     }
 }
 function Move(e){
