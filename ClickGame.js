@@ -1,7 +1,10 @@
 for(let i = 1; i<=10;i++){
-    document.getElementById("Button-" + i).addEventListener("click", breaking);
+    document.getElementById("" + i).addEventListener("click", breaking);
 }
 
+var blocks = [1,1,1,1,1,1,1,1,1,1]
+
 function breaking(e){
-    document.getElementById(this.id).innerHTML("Test");
+    blocks[parseInt(this.id)-1]+=1;
+    document.getElementById(this.id).innerHTML("<img src=\"Stage" + blocks[parseInt(this.id)-1] + ".png\">");
 }
