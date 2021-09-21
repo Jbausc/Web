@@ -31,11 +31,11 @@ function Move(e){
         
     }
     if(x==10){
-        location.replace("https://jbausc.github.io/Web/Intro.html") 
+        location.href="https://jbausc.github.io/Web/Intro.html";
     } else if(x==20){
-        location.replace("https://jbausc.github.io/Web/Radix.html")
+        location.href="https://jbausc.github.io/Web/Radix.html";
     } else if(x==30){
-        location.replace("https://jbausc.github.io/Web/ClickGame.html")
+        location.href="https://jbausc.github.io/Web/ClickGame.html";
     }
 }
     
