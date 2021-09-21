@@ -41,11 +41,17 @@ function Move(e){
     } else if(x==30){
         location.href="https://jbausc.github.io/Web/ClickGame.html";
     } else if(x==15){
-        location.href="https://jbausc.github.io/Web/index.html";
+        document.getElementById(x.toString()).innerHTML="<img src=\"oops.png\">"; 
+        x=1;
+        document.getElementById("1").innerHTML="<img src=\"Car.png\">";
     } else if(x==28){
-        location.href="https://jbausc.github.io/Web/index.html";
+        document.getElementById(x.toString()).innerHTML="<img src=\"oops.png\">"; 
+        x=1;
+        document.getElementById("1").innerHTML="<img src=\"Car.png\">";
     } else if(x==42){
-        location.href="https://jbausc.github.io/Web/index.html";
+        document.getElementById(x.toString()).innerHTML="<img src=\"oops.png\">"; 
+        x=1;
+        document.getElementById("1").innerHTML="<img src=\"Car.png\">";
     } 
 }
     
