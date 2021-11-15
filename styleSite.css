@@ -101,7 +101,7 @@ p {
 }
 .grid-container-game {
     display: grid;
-    grid-template-columns:32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
+    grid-template-columns:32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
     width:1280px;
     margin:auto;
     margin-top:5%;
