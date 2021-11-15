@@ -1,7 +1,7 @@
 document.addEventListener("keydown", Move);
 var x = 220;
 
-for(let i = 120; i<=159;i++){
+for(let i = 160; i<=199;i++){
     document.getElementById("" + i).addEventListener("click", breaking);
 }
 
